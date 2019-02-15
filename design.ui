@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>MainMenu</class>
+ <widget class="QWidget" name="MainMenu">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Главное меню</string>
   </property>
   <widget class="QComboBox" name="game_edit">
    <property name="geometry">
@@ -128,12 +128,12 @@
     <rect>
      <x>40</x>
      <y>170</y>
-     <width>81</width>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Размер летки:</string>
+    <string>Размер клетки:</string>
    </property>
   </widget>
   <widget class="QSpinBox" name="cell_size">
